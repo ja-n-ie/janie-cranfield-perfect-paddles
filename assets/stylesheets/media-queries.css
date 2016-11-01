@@ -1,0 +1,311 @@
+/* @media all and (min-width: 600px) ---------------*/
+
+
+@media all and (min-width: 600px){
+
+  /* ## TYPOGRAPHY ---------------*/
+
+  p.alignleft {
+    margin: 0px 25px 20px 0px;
+  }
+
+  h1 {
+    font-size: 4rem;
+    padding: 30px 0 20px 0;
+  }
+
+  h2#subhead {
+    font-size: 2rem;
+  }
+
+  h2#location {
+    padding: 40px 0px 37px 0px;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+
+  /* # PRIMARY HEADER ---------------*/
+
+  .primary-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 40px;
+  }
+
+  .primary-header .logo {
+    max-width:180px;
+    margin: 0px 12px;
+  }
+
+  nav {
+    margin: 5px 3px 0px 12px;
+  }
+
+
+  /* # SECTION: HERO ---------------*/
+
+  .transluscent-box {
+    max-width:460px;
+  }
+
+
+  /* # CONTENT CONTAINER ---------------*/
+
+  .content {
+    margin: 0 5px;
+  }
+
+  /* ## SECTION: ABOUT ---------------*/
+
+  .narrow {
+    padding: 0px 9px;
+  }
+
+
+  /* ## SECTION: PHOTOS ---------------*/
+
+  div.img-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .img-gallery img {
+    width: 32%;
+    height: 100%;
+  }
+
+
+  /* ## SECTION: RENTALS ---------------*/
+
+  .table-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .table-right div {
+    width: 50%;
+    height: 100%;
+  }
+
+  th, td {
+    padding: 11px 5px;
+  }
+
+
+  /* ## SECTION: LOCATION ---------------*/
+
+  iframe {
+    height: 200px;
+  }
+
+
+/* # FOOTER ---------------*/
+
+  .primary-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .primary-footer p {
+    text-align: left;
+    line-height: 19px;
+  }
+
+  .primary-footer div {
+    margin: 0px;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 22px;
+  }
+
+  .social-media a {
+    padding: 0px;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+
+  span {
+    display: inline-block;
+    padding: 0px 25px 0px 15px;
+  }
+
+
+  /* # BUTTONS ---------------*/
+
+  .btn-alt {
+    padding: 12px;
+  }
+
+}
+
+
+/* @media all and (min-width: 1140px) ---------------*/
+
+
+@media all and (min-width: 1140px){
+
+
+  /* ## TYPOGRAPHY ---------------*/
+
+  p {
+    line-height: 27px;
+    font-size: 1rem;
+  }
+
+  p.alignleft {
+    padding-right: 40px;
+  }
+
+  h1 {
+    font-size: 7rem;
+    padding: 65px 0 60px 0;
+  }
+
+  h2 {
+    padding: 70px 0px 50px 0px;
+    font-size: 3rem;
+  }
+
+  h2#subhead {
+    font-size: 2.9rem;
+  }
+
+  h2#location {
+    padding: 70px 0px 50px 0px;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+
+
+  /* # PRIMARY HEADER ---------------*/
+
+  .primary-header {
+    max-height: 90px;
+  }
+
+  .primary-header .logo {
+    padding: 7px 20px;
+
+  }
+
+  .primary-header .logo img {
+    max-width:245px;
+  }
+
+  nav {
+    max-width: 250px;
+
+  }
+
+  nav ul {
+    padding-right: 80px;
+
+  }
+
+  nav li  {
+    font-size: 1rem;
+  }
+
+
+  /* # SECTION: HERO ---------------*/
+
+  .transluscent-box {
+    max-width:550px;
+    padding: 12px 5px;
+    margin: 35px auto;
+  }
+
+
+  /* # CONTENT CONTAINER ---------------*/
+
+  .content {
+    margin: 0 22px;
+  }
+
+
+  /* ## SECTION: ABOUT ---------------*/
+
+  .narrow {
+    padding: 0px 192px;
+  }
+
+
+  /* ## SECTION: PHOTOS ---------------*/
+
+  div.img-gallery {
+    margin-top: 45px;
+  }
+
+
+  /* ## SECTION: RENTALS ---------------*/
+
+  th, td {
+    font-size: 1rem;
+    padding: 15px 8px;
+  }
+
+
+  /* ## SECTION: LOCATION ---------------*/
+
+  iframe {
+    height: 275px;
+  }
+
+  .map {
+    margin: 18px 0 36px 0;
+  }
+
+/* # FOOTER ---------------*/
+
+  .primary-footer {
+    padding: 55px 0px 55px 30px;
+  }
+
+  .primary-footer p {
+    line-height: 24px;
+    font-size: 1rem;
+  }
+
+  .social-media {
+    line-height: 29px;
+  }
+
+  .social-media a {
+    font-size: 1rem;
+  }
+
+  span {
+    padding: 0px 75px 0px 15px;
+  }
+
+
+  /* # BUTTONS ---------------*/
+
+  .btn-alt {
+    padding: 16px;
+    font-size: 1.2rem;
+  }
+
+
+}
