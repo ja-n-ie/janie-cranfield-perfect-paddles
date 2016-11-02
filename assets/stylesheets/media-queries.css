@@ -1,4 +1,19 @@
-/* @media all and (min-width: 600px) ---------------*/
+/* =============================================
+
+ @media all and (min-width: 600px)
+
+ ## TYPOGRAPHY
+ # PRIMARY HEADER
+ # SECTION: HERO
+ # CONTENT CONTAINER
+ ## SECTION: ABOUT
+ ## SECTION: PHOTOS
+ ## SECTION: RENTALS
+ ## SECTION: LOCATION
+ # FOOTER
+ # BUTTONS
+
+ ============================================= */
 
 
 @media all and (min-width: 600px){
@@ -187,7 +202,23 @@
 }
 
 
-/* @media all and (min-width: 1140px) ---------------*/
+
+/* =============================================
+
+@media all and (min-width: 1140px)
+
+## TYPOGRAPHY
+# PRIMARY HEADER
+# SECTION: HERO
+# CONTENT CONTAINER
+## SECTION: ABOUT
+## SECTION: PHOTOS
+## SECTION: RENTALS
+## SECTION: LOCATION
+# FOOTER
+# BUTTONS
+
+============================================== */
 
 
 @media all and (min-width: 1140px){
@@ -239,7 +270,6 @@
 
   .primary-header .logo {
     padding: 7px 20px;
-
   }
 
   .primary-header .logo img {
@@ -247,11 +277,11 @@
   }
 
   nav {
-    max-width: 250px;
+    max-width: 300px;
   }
 
   nav ul {
-    padding-right: 80px;
+    padding-right: 12px;
   }
 
   nav li  {
@@ -327,7 +357,7 @@
   }
 
   span {
-    padding: 0px 75px 0px 15px;
+    padding: 0px 90px 0px 12px;
   }
 
 
@@ -337,6 +367,5 @@
     padding: 16px;
     font-size: 1.2rem;
   }
-
 
 }
