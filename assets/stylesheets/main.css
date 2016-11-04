@@ -292,7 +292,7 @@ div.img-gallery {
 /* ## SECTION: RENTALS ---------------*/
 
 table {
-    border:1px solid #c8c8c8;;
+    border:1px solid #c8c8c8;
     width: 100%;
     -ms-flex-item-align: right;
         -ms-grid-row-align: right;
